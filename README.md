@@ -39,4 +39,13 @@ I will be using the .gitignore file to ignore:
 
 # Storage of credentials and sensitive information
 
+The management of credentials and sensitive information will be managed through .gitigonre files where the API key/secrets, credentials and sensitive information. The use of secrets will also be utilised to ensure that values are never stored as plaintext but rather as secrets. 
+
+Secrets use Libsodium sealed boxes, so that they are encrypted before reaching GitHub. This occurs when the secret is submitted using the UI or through the REST API. (source: https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions)
+
+Github redacts any secrets that appear in run logs which help to prevent accidental disclosure.
+
+![image](https://user-images.githubusercontent.com/110629391/185423382-94f1d1b5-6943-4f1a-bd85-733d9b3e4288.png)
+image source: https://colinwilson.uk/2021/01/03/environment-specific-secrets-in-github-workflows/
+
 
