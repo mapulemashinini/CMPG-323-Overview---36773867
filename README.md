@@ -2,11 +2,10 @@
 
 # Project Repositories
 
-#Project- Repository diagram
+# Project- Repository diagram
 
-#Branch strategy
+# Branch strategy
 
-#User of .gitignore file
+# User of .gitignore file
 
-
-#Storage of credentials and sensitive information
+# Storage of credentials and sensitive information
