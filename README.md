@@ -15,6 +15,9 @@
 
 # Project- Repository diagram
 
+![image](https://user-images.githubusercontent.com/110629391/185420369-c2e56f61-0c8b-4068-b8e8-44ef6e8f667c.png)
+
+
 # Branch strategy
 
 The branch strategy that will be used in each project is the GitHub Flow Branching Strategy which will create different segments for each different type of work to be done, namely:
