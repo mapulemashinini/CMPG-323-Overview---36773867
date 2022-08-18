@@ -17,6 +17,14 @@
 
 # Branch strategy
 
+The branch strategy that will be used in each project is the Gitflow Branching Strategy which will create different segments for each different type of work to be done, namely:
+
+* Main Branch
+* Development Branch
+* Feature Branch
+* Test Branch
+
+
 # User of .gitignore file
 
 # Storage of credentials and sensitive information
